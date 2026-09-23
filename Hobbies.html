@@ -3,141 +3,230 @@
 
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>My Hobbies</title>
+    <title>My Biodata</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <header>
+
+        <h1>My Biodata </h1>
+
+        <p>
+            Halaman Profil Saya
+        </p>
+
+    </header>
+
+
     <!-- NAVIGATION -->
+
     <nav>
 
-        <div class="logo">
-            My Biodata
-        </div>
+    <a href="#profile">Profile</a>
 
-        <ul>
+    <a href="#hobbies">Hobbies</a>
 
-            <li>
-                <a href="index.html">Profile</a>
-            </li>
+    <a href="#academic">Academic Record</a>
 
-            <li>
-                <a href="Hobbies.html">Hobbies</a>
-            </li>
+    <a href="#contact">Contact Me</a>
 
-            <li>
-                <a href="Academic_Record.html">
-                    Academic Record
-                </a>
-            </li>
-
-            <li>
-                <a href="Contact_Me.html">
-                    Contact Me
-                </a>
-            </li>
-
-        </ul>
-
-    </nav>
+</nav>
 
 
-    <!-- HOBBIES -->
+    <main>
 
-    <main class="hobbies-page">
+        <!-- PROFILE -->
 
-        <div class="hobbies-header">
+        <section id="profile">
 
-            <p class="small-title">
-                ABOUT ME
-            </p>
+            <h2>Student Profile</h2>
 
-            <h1>
-                My <span>Hobbies</span>
-            </h1>
+            <img src="foto.jpeg"
+                 alt="Foto Profil"
+                 class="profile-photo">
 
             <p>
-                A few things I enjoy doing in my free time.
+                Halo, nama saya <strong>Junior Ferdiol
+                Noumensen Pardede</strong>.
+                Saya mahasiswa di Universitas Advent Indonesia.
+                Program studi Sstem Informasi
             </p>
 
-        </div>
+            <p>
+                
+            </p>
 
 
-        <!-- HOBBY CARDS -->
+            <ul>
 
-        <div class="hobbies-list">
+                <li>
+                    <strong>Name:</strong>
+                    Junior Ferdiol Noumensen Pardedede
+                </li>
+
+                <li>
+                    <strong>NIM:</strong>
+                    2582018
+                </li>
+
+                <li>
+                    <strong>Study Program:</strong>
+                    Sistem Informasi
+                </li>
+
+                <li>
+                    <strong>Email:</strong>
+                    2582018@unai.edu
+                </li>
+
+            </ul>
+
+        </section>
 
 
-            <!-- BADMINTON -->
+        <!-- HOBBIES -->
 
-            <div class="hobby">
+        <section id="hobbies">
 
-                <h2>
-                    🏸 Badminton
-                </h2>
+            <h2>My Hobbies</h2>
+
+            <h3>Favorite Hobbies</h3>
+
+            <ul>
+
+                <li>Badminton</li>
+
+                <li>Playing Games</li>
+
+                <li>Watching Movies</li>
+
+            </ul>
+
+
+            <h3>Other Activities I Enjoy</h3>
+
+            <ul>
+
+                <li>Spending Time with Friends</li>
+
+                <li>Learning Technology</li>
+
+                <li>Learning about Computers</li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- ACADEMIC -->
+
+        <section id="academic">
+
+            <h2>Academic Record</h2>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+                        <th>No</th>
+                        <th>Semester</th>
+                        <th>Tahun Akademik</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>1</td>
+                        <td>Ganjil</td>
+                        <td>2025/2026</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Genap</td>
+                        <td>2025/2026</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+
+        <!-- CONTACT -->
+
+        <section id="contact">
+
+            <h2>Contact Me</h2>
+
+            <form>
+
+                <label for="name">
+                    Full Name
+                </label>
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Full Name"
+                >
+
+
+                <label for="email">
+                    Email
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Email"
+                >
+
+
+                <label for="message">
+                    Message
+                </label>
+
+                <textarea
+                    id="message"
+                    placeholder="Write your message"
+                ></textarea>
+
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+
+            <!-- INSTAGRAM -->
+
+            <div class="instagram">
 
                 <p>
-                    I enjoy playing badminton because
-                    it keeps me active and healthy.
+                    Follow me on Instagram:
                 </p>
+
+                <a
+                    href="https://www.instagram.com/junn.prdede/"
+                    target="_blank"
+                >
+                    Instagram
+                </a>
 
             </div>
 
-
-            <!-- GAMES -->
-
-            <div class="hobby">
-
-                <h2>
-                    🎮 Playing Games
-                </h2>
-
-                <p>
-                    Playing games is one of my favorite
-                    activities during my free time.
-                </p>
-
-            </div>
-
-
-            <!-- MOVIES -->
-
-            <div class="hobby">
-
-                <h2>
-                    🎬 Watching Movies
-                </h2>
-
-                <p>
-                    I like watching movies to relax
-                    and enjoy interesting stories.
-                </p>
-
-            </div>
-
-
-            <!-- TECHNOLOGY -->
-
-            <div class="hobby">
-
-                <h2>
-                    💻 Technology
-                </h2>
-
-                <p>
-                    I enjoy learning about computers,
-                    programming, and web development.
-                </p>
-
-            </div>
-
-
-        </div>
+        </section>
 
     </main>
 
@@ -147,11 +236,12 @@
     <footer>
 
         <p>
-            © Junior Pardede | Pemograman Web | Universitas Advent Indonesia
+            © 2026 Junior Ferdiol Noumensen Pardede |
+            Web Programming I
         </p>
 
         <p>
-            Personal Website
+            Universitas Advent Indonesia
         </p>
 
     </footer>
